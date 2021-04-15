@@ -1,6 +1,6 @@
 #ifndef INOTIFY_TREE_H
 #define INOTIFY_TREE_H
-#include <sys/inotify.h>
+#include <inotify/sys/inotify.h>
 #include <sys/stat.h>
 #include <dirent.h>
 #include <stdlib.h>

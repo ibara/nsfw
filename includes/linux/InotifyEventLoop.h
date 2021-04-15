@@ -4,7 +4,7 @@
 #include "InotifyService.h"
 #include "../SingleshotSemaphore.h"
 
-#include <sys/inotify.h>
+#include <inotify/sys/inotify.h>
 #include <stdlib.h>
 #include <string.h>
 #include <pthread.h>
